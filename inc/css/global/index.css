@@ -1,0 +1,5 @@
+body{
+    display: grid;
+    min-height: 150vh;
+    grid-template-rows: 0fr 1fr 0fr;
+}
