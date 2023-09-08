@@ -1,2 +1,10 @@
 <?php
-echo '<h2>Notre futur page d\'accueil pour notre boutique</h2>';
+require('./inc/init.inc.php');
+require('./inc/haut.inc.php');
+?>
+<div class="logo" id="mylogo">
+    <a href="/"><img src="./inc/img/logo_site.png" alt=""></a>
+</div>
+<?php
+require('./inc/bas.inc.php');
+
