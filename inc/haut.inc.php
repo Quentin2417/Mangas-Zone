@@ -9,8 +9,7 @@
 <body>
     <header>
         <nav class="topnav" id="mytopnav">
-            <a href="<?php echo RACINE_SITE; ?>./inc/img/logo/logo_site.png">LOGO</a>
-            <a href="<?php echo RACINE_SITE; ?>recherche.php">barre de recherche</a>
+            <a src="<?php echo RACINE_SITE; ?>./inc/img/logo/logo_site.png"></a>
             <a href="<?php echo RACINE_SITE; ?>inscription.php"> Inscription</a>
             <a href="<?php echo RACINE_SITE; ?>commande.php">Commandes</a>
             <a href="<?php echo RACINE_SITE; ?>panier.php">Panier</a>
