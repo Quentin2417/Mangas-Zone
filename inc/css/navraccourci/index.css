@@ -7,12 +7,15 @@
 .racnav a{
     color: #FFFFFF;
 }
+.racnav a.icon{
+  display: none;
+}
+
  @media screen and (max-width: 768px) {
-    .racnav a:not(:first-child) {
+    .racnav a {
       display: none;
     }
     .racnav a.icon {
-      float: right;
       display: block;
     }
   }

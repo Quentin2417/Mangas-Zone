@@ -26,9 +26,10 @@
             <a href="<?php echo RACINE_SITE; ?>">Attaque des Titans</a>
             <a href="<?php echo RACINE_SITE; ?>">Bleach</a>
             <a href="<?php echo RACINE_SITE; ?>">Jujutsu Kaisen</a>
-            <!-- <a href="javascript:void(0);" class="icon" ondblclick="togglenav()">
-            <i class="fa fa-flash"></i> -->
+            <a href="javascript:void(0);" class="icon" ondblclick="togglenav()">
+            <i class="fa fa-flash"></i>
+            </a>
         </racnav>
     </header>
     <section>
-        <div class="conteneur">
+        <!-- <div class="conteneur"> -->
