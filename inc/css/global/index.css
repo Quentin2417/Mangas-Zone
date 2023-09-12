@@ -18,7 +18,7 @@ body{
     background-repeat:  no-repeat;
     background-size: cover;
     margin-bottom: 20px;
-    margin-top: 117px;
+    margin-top: 100px;
 }
 .couv a:nth-child(2){
     background: url("/inc/img/couverture/couv_accueil/couv_dragon_ball.jpg");
@@ -67,4 +67,10 @@ body{
     background-position: center;
     background-repeat:  no-repeat;
     background-size: cover ;
+}
+.logo {
+    height: 6vh;
+    position: relative;
+    right: 44vh;  
+    margin-top: 5px; 
 }

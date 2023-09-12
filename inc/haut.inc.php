@@ -8,15 +8,15 @@
 </head>
 <body>
     <header>
-        <nav class="topnav" id="mytopnav">
-            <a src="<?php echo RACINE_SITE; ?>./inc/img/logo/logo_site.png"></a>
-            <a href="<?php echo RACINE_SITE; ?>inscription.php"> Inscription</a>
-            <a href="<?php echo RACINE_SITE; ?>commande.php">Commandes</a>
-            <a href="<?php echo RACINE_SITE; ?>panier.php">Panier</a>
-            <a href="javascript:void(0);" class="icon" ondblclick="togglenav()">
-            <i class="fa fa-bars"></i>
-            </a>
-        </nav>
+            <nav class="topnav" id="mytopnav">
+                <img class="logo" src="<?php echo RACINE_SITE; ?>./inc/img/logo/logo_site.png"></img>
+                <a href="<?php echo RACINE_SITE; ?>inscription.php"> Inscription</a>
+                <a href="<?php echo RACINE_SITE; ?>commande.php">Commandes</a>
+                <a href="<?php echo RACINE_SITE; ?>panier.php">Panier</a>
+                <a href="javascript:void(0);" class="icon" ondblclick="togglenav()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </nav>
         <racnav class="racnav" id="myracnav">
             <a href="<?php echo RACINE_SITE; ?>">One Piece</a>
             <a href="<?php echo RACINE_SITE; ?>">Dragon Ball</a>

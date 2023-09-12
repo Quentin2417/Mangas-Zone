@@ -1,4 +1,4 @@
-<!-- Toutes nos fonctions -->
+Toutes nos fonctions
 <?php
 function executeRequete($req) 
 {
