@@ -1,4 +1,5 @@
 .topnav{
+  display: flex;
     background-color: #4069FB;
     overflow: hidden;
   }

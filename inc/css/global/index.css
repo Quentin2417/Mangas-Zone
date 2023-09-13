@@ -71,6 +71,6 @@ body{
 .logo {
     height: 6vh;
     position: relative;
-    right: 44vh;  
+    /* right: 44vh;   */
     margin-top: 5px; 
 }
