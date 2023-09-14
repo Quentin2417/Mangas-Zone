@@ -55,9 +55,8 @@ table {
 form {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  margin-top: 67px;
+  min-width: 300px;
 }
 
 h2 {
@@ -67,6 +66,33 @@ h2 {
   justify-content: center;
   margin-top: 135px;
   font-size: 9vh;
+}
+
+.inscription {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 310px;
+  border: 2px solid black;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.connexion {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: #48F0F6;
+}
+
+.conditions {
+  display: flex;
+  font-size: 8px;
+  margin-top: 10px;
+  justify-content: center;
+  flex-direction: column;
 }
 
 footer {
@@ -89,6 +115,12 @@ body {
   grid-template-rows: 0fr 1fr 0fr;
 }
 
+.conteneur {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 #mycouv a {
   width: 100%;
   min-height: 100vh;
@@ -101,7 +133,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 20px;
-  margin-top: 100px;
+  margin-top: 90px;
 }
 
 .couv a:nth-child(2) {
