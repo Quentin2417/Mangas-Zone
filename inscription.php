@@ -3,7 +3,7 @@
 
     <h2>Inscription</h2>
     <form method="post" action="inscription.php">
-        <label for="nom">NOM</label>
+        <label for="nom">NOM :</label>
         <input type="text" id="nom" name="nom" placeholder="Entrer votre Nom"  required><br><br>
         <label for="email">Adresse mail :</label>
         <input type="email" id="email" name="email" placeholder="Entrer votre adresse mail" required><br><br>

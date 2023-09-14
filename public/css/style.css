@@ -1,0 +1,250 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 67px;
+}
+
+h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 135px;
+  font-size: 9vh;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font: size 17px;
+  background-color: #4069FB;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+}
+
+body {
+  display: grid;
+  max-height: 100vh;
+  grid-template-rows: 0fr 1fr 0fr;
+}
+
+#mycouv a {
+  width: 100%;
+  min-height: 100vh;
+  display: block;
+}
+
+.couv a:nth-child(1) {
+  background: url("/inc/img/couverture/couv_accueil/couv_one_piece.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+
+.couv a:nth-child(2) {
+  background: url("/inc/img/couverture/couv_accueil/couv_dragon_ball.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.couv a:nth-child(3) {
+  background: url("/inc/img/couverture/couv_accueil/couv_naruto.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.couv a:nth-child(4) {
+  background: url("/inc/img/couverture/couv_accueil/couv_demon_slayer.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.couv a:nth-child(5) {
+  background: url("/inc/img/couverture/couv_accueil/couv_HxH.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.couv a:nth-child(6) {
+  background: url("/inc/img/couverture/couv_accueil/couv_snk.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.couv a:nth-child(7) {
+  background: url("/inc/img/couverture/couv_accueil/couv_bleach.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.couv a:nth-child(8) {
+  background: url("/inc/img/couverture/couv_accueil/couv_jujutsu_kaisen.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo {
+  height: 6vh;
+  position: relative;
+  /* right: 44vh;   */
+  margin-top: 5px;
+}
+
+.topnav {
+  display: flex;
+  background-color: #4069FB;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 18px 20px;
+  font-size: 20px;
+}
+
+.topnav a.icon {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .topnav a {
+    display: none;
+  }
+  .topnav a.icon {
+    display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+.racnav {
+  background-color: #7694FF;
+  display: flex;
+  justify-content: space-around;
+  padding: 12px 14px;
+}
+
+.racnav a {
+  color: #FFFFFF;
+}
+
+.racnav a.icon {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .racnav a {
+    display: none;
+  }
+  .racnav a.icon {
+    display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  .racnav.responsive {
+    position: relative;
+  }
+  .racnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .racnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
