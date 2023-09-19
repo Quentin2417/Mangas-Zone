@@ -52,6 +52,23 @@ table {
   border-spacing: 0;
 }
 
+footer {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font: size 17px;
+  background-color: #4069FB;
+}
+
+.bas, .bas a {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  color: white;
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -64,8 +81,14 @@ h2 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 135px;
-  font-size: 9vh;
+  font-size: 7vh;
+}
+
+h3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.5vh;
 }
 
 .inscription {
@@ -75,16 +98,17 @@ h2 {
   max-width: 310px;
   border: 2px solid black;
   padding: 20px;
-  margin-top: 40px;
+  margin-top: 200px;
 }
 
 .connexion {
   display: flex;
   justify-content: center;
-}
-
-button {
-  background-color: #48F0F6;
+  flex-direction: column;
+  max-width: 310px;
+  border: 2px solid black;
+  padding: 20px;
+  margin-top: 200px;
 }
 
 .conditions {
@@ -95,13 +119,12 @@ button {
   flex-direction: column;
 }
 
-footer {
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font: size 17px;
-  background-color: #4069FB;
+button {
+  background-color: #48F0F6;
+}
+
+span {
+  margin-top: 15px;
 }
 
 header {
@@ -115,16 +138,25 @@ body {
   grid-template-rows: 0fr 1fr 0fr;
 }
 
-.conteneur {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+#mycouv {
+  width: 100%;
 }
 
 #mycouv a {
   width: 100%;
   min-height: 100vh;
-  display: block;
+  display: flex;
+  font-size: 10vh;
+  color: white;
+  text-shadow: 1px 1px 2px rgb(250, 4, 4), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(38, 38, 240);
+  align-items: center;
+  justify-content: center;
+}
+
+.conteneur {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .couv a:nth-child(1) {
@@ -141,7 +173,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .couv a:nth-child(3) {
@@ -149,7 +181,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .couv a:nth-child(4) {
@@ -157,7 +189,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .couv a:nth-child(5) {
@@ -165,7 +197,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .couv a:nth-child(6) {
@@ -173,7 +205,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .couv a:nth-child(7) {
@@ -181,7 +213,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .couv a:nth-child(8) {
@@ -191,17 +223,30 @@ body {
   background-size: cover;
 }
 
-.logo {
+.logo img {
   height: 6vh;
-  position: relative;
-  /* right: 44vh;   */
   margin-top: 5px;
+}
+
+.logo {
+  display: block;
+}
+
+#myban {
+  width: 100%;
+}
+
+#myban img {
+  width: 100%;
+  margin-top: 80px;
 }
 
 .topnav {
   display: flex;
   background-color: #4069FB;
   overflow: hidden;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .topnav a {
@@ -209,7 +254,6 @@ body {
   display: block;
   color: #FFFFFF;
   text-align: center;
-  padding: 18px 20px;
   font-size: 20px;
 }
 

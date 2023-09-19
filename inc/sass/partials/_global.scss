@@ -7,15 +7,24 @@ body{
     max-height: 100vh;
     grid-template-rows: 0fr 1fr 0fr;
 }
+#mycouv {
+    width: 100%;
+}
+
+#mycouv a {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    font-size: 10vh;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(250, 4, 4), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(38, 38, 240);
+    align-items: center;
+    justify-content: center;
+}
 .conteneur{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-#mycouv a {
-    width: 100%;
-    min-height: 100vh;
-    display: block;
 }
 .couv a:nth-child(1){
     background: url("/inc/img/couverture/couv_accueil/couv_one_piece.jpg");
@@ -30,42 +39,42 @@ body{
     background-position: center;
     background-repeat:  no-repeat;
     background-size: cover ;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 .couv a:nth-child(3){
     background: url("/inc/img/couverture/couv_accueil/couv_naruto.jpg");
     background-position: center;
     background-repeat:  no-repeat;
     background-size: cover ;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 .couv a:nth-child(4){
     background: url("/inc/img/couverture/couv_accueil/couv_demon_slayer.jpg");
     background-position: center;
     background-repeat:  no-repeat;
     background-size: cover ;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 .couv a:nth-child(5){
     background: url("/inc/img/couverture/couv_accueil/couv_HxH.jpg");
     background-position: center;
     background-repeat:  no-repeat;
     background-size: cover ;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 .couv a:nth-child(6){
     background: url("/inc/img/couverture/couv_accueil/couv_snk.jpg");
     background-position: center;
     background-repeat:  no-repeat;
     background-size: cover ;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 .couv a:nth-child(7){
     background: url("/inc/img/couverture/couv_accueil/couv_bleach.jpg");
     background-position: center;
     background-repeat:  no-repeat;
     background-size: cover ;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 .couv a:nth-child(8){
     background: url("/inc/img/couverture/couv_accueil/couv_jujutsu_kaisen.jpg");
@@ -73,10 +82,18 @@ body{
     background-repeat:  no-repeat;
     background-size: cover ;
 }
-.logo {
+
+.logo img{
     height: 6vh;
-    position: relative;
-    /* right: 44vh;   */
     margin-top: 5px; 
 }
-
+.logo{
+    display: block;
+}
+#myban{
+    width: 100%;
+}
+#myban img{
+    width: 100%;
+    margin-top: 80px;
+}
