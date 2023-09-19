@@ -97,3 +97,11 @@ body{
     width: 100%;
     margin-top: 80px;
 }
+.hist-mangas {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.hist-mangas h1{
+    font-size: 5vh;
+}
