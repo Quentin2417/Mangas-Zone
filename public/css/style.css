@@ -251,6 +251,18 @@ body {
   font-size: 5vh;
 }
 
+.condutil {
+  margin-top: 90px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.cookie {
+  margin-top: 150px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
 .topnav {
   display: flex;
   background-color: #4069FB;
